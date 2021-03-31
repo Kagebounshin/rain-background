@@ -1,0 +1,215 @@
+body {
+    overflow: hidden;
+}
+
+.sky {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #d4d3d3;
+    margin: 0;
+    padding: 0;
+    
+    bottom: 0px;
+    right: 0px;
+
+    
+}
+
+.rain {
+    position: absolute;
+    background: linear-gradient(#000000, #ffffff);
+    opacity: 2;
+
+}
+
+.d1 {
+    left: 89%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1s infinite;
+}
+
+.d2 {
+    left: 13%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.7s infinite;
+}
+.d3 {
+    left: 45%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 1.5s linear 1s infinite;
+}
+.d4 {
+    left: 5%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1s infinite;
+}
+.d5 {
+    left: 36%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1s infinite;
+}
+.d6 {
+    left: 78%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 1s linear 1s infinite;
+}
+.d7 {
+    left: 91%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 2s infinite;
+}
+.d8 {
+    left: 53%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.1s infinite;
+}
+.d9 {
+    left: 69%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.7s infinite;
+}
+.d10 {
+    left: 2%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.3s infinite;
+}
+
+.d11 {
+    left: 43%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1s infinite;
+}
+
+.d12 {
+    left: 27%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.7s infinite;
+}
+.d13 {
+    left: 17%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 1.5s linear 1s infinite;
+}
+.d14 {
+    left: 60%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1s infinite;
+}
+.d15 {
+    left: 54%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1s infinite;
+}
+.d16 {
+    left: 69%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 1s linear 1s infinite;
+}
+.d17 {
+    left: 73%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 2s infinite;
+}
+.d18 {
+    left: 75%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.1s infinite;
+}
+.d19 {
+    left: 68%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.7s infinite;
+}
+.d20 {
+    left: 4%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.3s infinite;
+}
+
+.d21 {
+    left: 97%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1s infinite;
+}
+
+.d22 {
+    left: 60%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.7s infinite;
+}
+.d23 {
+    left: 48%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 1.5s linear 1.21s infinite;
+}
+.d24 {
+    left: 15%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.94s infinite;
+}
+.d25 {
+    left: 39%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 1.15s infinite;
+}
+.d26 {
+    left: 80%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 1s linear 1.1s infinite;
+}
+.d27 {
+    left: 94%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 2.3s infinite;
+}
+.d28 {
+    left: 52%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 0.1s infinite;
+}
+.d29 {
+    left: 70%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 0.7s infinite;
+}
+.d30 {
+    left: 6%;
+    width: 0.1%;
+    height: 1%;
+    animation: raining 2s linear 0.3s infinite;
+}
+
+@keyframes raining {
+    from {margin-top: -5%;}
+    to { margin-top: 100%; opacity: 0;}
+}
